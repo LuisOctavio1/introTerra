@@ -1,0 +1,7 @@
+location     = "East US"
+rg_name      = "cmaz-y010np4n-mod3-rg"
+vnet_name    = "cmaz-y010np4n-mod3-vnet"
+st_name      = "cmazy010np4nsa"
+subnet_name  = "frontend"
+subnet_name2 = "backend"
+creator      = "luis_torres2@epam.com"
