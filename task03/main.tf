@@ -14,6 +14,7 @@ resource "azurerm_storage_account" "st" {
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
   account_replication_type = "LRS"
+  tags                     = local.common_tags
 }
 
 resource "azurerm_virtual_network" "vnet" {
